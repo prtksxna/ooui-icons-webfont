@@ -12,6 +12,6 @@
     "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
     "grunt-webfont": "^1.6.0",
-    "oojs-ui": "^0.18.3"
+    "oojs-ui": "0.18.3"
   }
 }
