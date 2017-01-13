@@ -11,7 +11,8 @@ grunt.initConfig( {
 				font: 'WikimediaIcons',
 				fontFilename: 'wikimedia-icons',
 				fontFamilyName: 'Wikimedia Icons',
-				order: 'woff,eot,ttf,svg'
+				order: 'woff,eot,ttf,svg',
+				htmlDemoFilename: 'index'
 			}
 		}
 	}
