@@ -3,6 +3,10 @@
 	<head>
 		<meta charset="utf-8">
 		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/mono-blue.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
 		<title>Wikimedia Icons</title>
 		<style>
 		body {
@@ -18,17 +22,27 @@
 			text-align: center;
 			padding: 100px;
 		}
+		header a {
+			color: white;
+		}
 		h1 {
 			font-size: 3em;
 			margin-bottom: 0;
 		}
-		h1, h2 {
-			text-align: center;
-			display: block;
-			clear: both;
+		.usage {
+			background: #f8f9fa;
+			margin: 0;
+			padding: 30px 100px;
 		}
-		a {
-			color: white;
+		.usage a {
+			color: #36c;
+		}
+		.usage ol {
+			padding: 0;
+		}
+		.usage div {
+			width: 1000px;
+			margin: 0 auto;
 		}
 		.icons {
 			margin-bottom:40px;
@@ -1461,8 +1475,23 @@
 		</header>
 
 		<div class="usage">
-			<h2>Usage</h2>
-			<pre><code>&lt;i class=&quot;icon icon_<span id="name">name</span>&quot;&gt;&lt;/i&gt;</code></pre>
+			<div>
+				<h2>Usage</h2>
+				<ol>
+					<li><a href="https://github.com/prtksxna/ooui-icons-webfont">Download</a> the entire <code>ooui-icons-webfont</code>repository into your project folder.</li>
+					<li>In the <code>&lt;head&gt;</code> of your HTML link to WikimediaIcons.css.</li>
+					<li>Click on an icon to get its html code</li>
+				</ol>
+
+				<pre><code class="html">&lt;html&gt;
+	&lt;head&gt;
+		&lt;link rel="stylesheet" href="path/to/WikimediaIcons.css" /&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;i class=&quot;icon icon_<span id="name">name</span>&quot;&gt;&lt;/i&gt;
+	&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+			</div>
 		</div>
 
 
@@ -2833,5 +2862,6 @@
 			}
 		})();
 		</script>
+		<script>hljs.initHighlightingOnLoad();</script>
 	</body>
 </html>
