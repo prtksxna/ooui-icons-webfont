@@ -13,7 +13,8 @@ grunt.initConfig( {
 				fontFamilyName: 'Wikimedia Icons',
 				order: 'woff,eot,ttf,svg',
 				hashes: false,
-				htmlDemoFilename: 'index'
+				htmlDemoFilename: 'index',
+				htmlDemoTemplate: 'templates/demo.html'
 			}
 		}
 	}
