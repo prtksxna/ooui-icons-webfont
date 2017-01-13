@@ -1,0 +1,14 @@
+{
+  "name": "ooui-icons-webfont",
+  "version": "0.0.0",
+  "description": "Webfont generated from OOUI icons",
+  "main": "index.html",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "oojs-ui": "^0.18.3"
+  }
+}
